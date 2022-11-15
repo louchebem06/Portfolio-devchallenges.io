@@ -1,13 +1,17 @@
 <template>
-	<div class="card">
-		<slot name="content"></slot>
+	<div>
+		<slot name="body"></slot>
 	</div>
 </template>
 
 <style scoped>
-	.card {
-		background-color: white;
-		padding: 10px;
+	div {
+		background: #FFFFFF;
 		border-radius: 12px;
+		padding: 0px;
+		max-width: 500px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
 	}
 </style>
