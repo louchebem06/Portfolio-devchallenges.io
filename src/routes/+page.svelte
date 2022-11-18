@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Bio from './composant/Bio.svelte';
 	import Blog from './composant/Blog.svelte';
+    import Experiences from './composant/Experiences.svelte';
 	import FrontEnd from './composant/FrontEnd.svelte'
     import Hobbies from './composant/Hobbies.svelte';
 	import Project from './composant/Project.svelte'
@@ -64,6 +65,32 @@
 		mail: "billy@example.com",
 		phone: "(+603) 546 624 342"		
 	}
+
+	let blog = {
+		title:"How to organize your CSS",
+		image:"https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+		description : [
+			"In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.",
+			"Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+		],
+		websiteName:"dev.to",
+		websiteLink:"https://dev.to/"
+	}
+
+	let experiences = [
+		{
+			image:"https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+			date:"Feb 2017 - Current",
+			title:"Front-end developer",
+			description:"Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+		},
+		{
+			image:"https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+			date:"Aug 2016 - Feb 2018",
+			title:"Full-stack developer",
+			description:"Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+		}
+	]
 </script>
 
 <svelte:head>
@@ -89,12 +116,11 @@
 
 		<div class="second">
 			<section>
-				<Blog	title="How to organize your CSS"
-						image="https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png"
-						description="In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.
-						Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
-						websiteName="dev.to"
-						websiteLink="https://dev.to/"/>
+				<Blog {...blog}/>
+			</section>
+
+			<section>
+				<Experiences {experiences} />
 			</section>
 		</div>
 
@@ -129,12 +155,22 @@
 	}
 
 	section {
-		padding: 10px 0;
+		padding: 20px 0;
 	}
 
 	.col {
 		display: flex;
 		justify-content: space-between;
 	}
+
+	/*.first {
+		background-color: green;
+	}
+
+	.second {
+		display: flex;
+		flex-direction: column;
+		background-color: red;
+	} */
 
 </style>

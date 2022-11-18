@@ -1,7 +1,10 @@
 <script lang="ts">
+    import { each } from "svelte/internal";
+
+
 	export let title: string;
 	export let image: string;
-	export let description: string;
+	export let description: Array<string>;
 	export let websiteName: string;
 	export let websiteLink: string;
 </script>
@@ -12,7 +15,9 @@
 		<h2>{title}</h2>
 		<img src="{image}" alt="img alt" />
 	</div>
-	<p>{description}</p>
+	{#each description as descript}
+		<p>{descript}</p>
+	{/each}
 	<a href="{websiteLink}">{websiteName}</a>
 </div>
 
@@ -22,7 +27,7 @@
 	.content {
 		background: #FFFFFF;
 		border-radius: 12px;
-		width: 670px;
+		width: 660px;
 		padding: 23.47px;
 		overflow: hidden;
 	}
@@ -50,7 +55,10 @@
 		line-height: 20px;
 		color: #828282;
 		max-width: 80%;
-		padding-bottom: 30px;
+	}
+
+	p:nth-of-type(2) {
+		margin-bottom: 60px;
 	}
 
 	a {
@@ -63,8 +71,10 @@
 	img {
 		display: block;
 		border-radius: 12px;
-		width: 50%;
+		width: 480px;
+		height: 480px;	
 		transform: translateX(50px);
+		object-fit: cover;
 	}
 
 	.title {

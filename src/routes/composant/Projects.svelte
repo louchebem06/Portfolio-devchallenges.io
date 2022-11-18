@@ -20,7 +20,7 @@
 	.content {
 		background: white;
 		border-radius: 12px;
-		padding: 20px;
+		padding: 10px 20px 20px 20px;
 	}
 
 	h1 {

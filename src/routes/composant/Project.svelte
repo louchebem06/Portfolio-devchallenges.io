@@ -79,6 +79,8 @@
 	img {
 		display: block;
 		border-radius: 12px;
-		width: 100%;
+		width: 350px;
+		height: 350px;
+		object-fit: cover;
 	}
 </style>
