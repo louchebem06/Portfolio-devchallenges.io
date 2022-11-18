@@ -2,8 +2,10 @@
 	import Bio from './composant/Bio.svelte';
 	import Blog from './composant/Blog.svelte';
     import Experiences from './composant/Experiences.svelte';
+    import Footer from './composant/Footer.svelte';
 	import FrontEnd from './composant/FrontEnd.svelte'
     import Hobbies from './composant/Hobbies.svelte';
+    import Pagging from './composant/Pagging.svelte';
 	import Project from './composant/Project.svelte'
 	import Projects from './composant/Projects.svelte'
 
@@ -135,6 +137,14 @@
 			<Project {...project}/>
 		{/each}
 	</section>
+
+	<section>
+		<Pagging />
+	</section>
+
+	<section>
+		<Footer />
+	</section>
 </div>
 
 <style>
@@ -162,15 +172,4 @@
 		display: flex;
 		justify-content: space-between;
 	}
-
-	/*.first {
-		background-color: green;
-	}
-
-	.second {
-		display: flex;
-		flex-direction: column;
-		background-color: red;
-	} */
-
 </style>
