@@ -1,8 +1,8 @@
-<script>
-	export let firstColor;
-	export let secondColor;
-	export let lien;
-	export let name;
+<script lang="ts">
+	export let firstColor: string;
+	export let secondColor: string;
+	export let lien: string;
+	export let name: string;
 </script>
 
 <a href="{lien}" style="

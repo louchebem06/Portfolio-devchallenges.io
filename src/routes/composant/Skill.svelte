@@ -1,6 +1,6 @@
-<script>
-	export let name;
-	export let value;
+<script lang="ts">
+	export let name: string;
+	export let value: number;
 </script>
 
 <div>

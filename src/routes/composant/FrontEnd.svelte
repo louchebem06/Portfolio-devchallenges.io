@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	import Skill from './Skill.svelte'
 
-	export let title;
+	export let title: string;
 </script>
 
 <div class="content">

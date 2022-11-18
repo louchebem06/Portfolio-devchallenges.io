@@ -1,12 +1,12 @@
-<script>
+<script lang="ts">
 	import Button from './Button.svelte'
 
-	export let tags;
-	export let title;
-	export let description;
-	export let image;
-	export let lienDemo;
-	export let lienCode;
+	export let tags: Array<string>;
+	export let title: string;
+	export let description: string;
+	export let image: string;
+	export let lienDemo: string;
+	export let lienCode: string;
 </script>
 
 <div class="content">
