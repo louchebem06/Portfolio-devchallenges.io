@@ -190,4 +190,21 @@
 		max-width: 570px;
 		transform: translateX(-45px);
 	}
+
+	@media only screen and (max-width: 1049px) {
+		.projects {
+			flex-direction: column;
+			gap: 20px;
+		}
+
+		.col {
+			flex-direction: column;
+		}
+
+		.second {
+			transform: translateY(0);
+			max-width: 100%;
+			width: 100%;
+		}
+	}
 </style>

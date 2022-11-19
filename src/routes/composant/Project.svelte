@@ -87,4 +87,10 @@
 		line-height: 29px;
 		color: #333333;
 	}
+
+	@media only screen and (max-width: 1049px) {
+		.content {
+			width: auto;
+		}
+	}
 </style>

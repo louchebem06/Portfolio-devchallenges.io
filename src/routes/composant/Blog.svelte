@@ -83,4 +83,10 @@
 		justify-content: space-between;
 		padding-bottom: 30px;
 	}
+
+	@media only screen and (max-width: 1049px) {
+		.content {
+			width: auto;
+		}
+	}
 </style>

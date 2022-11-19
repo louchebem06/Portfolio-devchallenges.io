@@ -75,4 +75,9 @@
 		color: #828282;
 	}
 
+	@media only screen and (max-width: 1049px) {
+		.content {
+			width: auto;
+		}
+	}
 </style>

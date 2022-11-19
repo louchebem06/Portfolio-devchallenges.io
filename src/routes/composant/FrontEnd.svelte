@@ -45,4 +45,10 @@
 		flex-direction: column;
 		gap: 17.07px;
 	}
+
+	@media only screen and (max-width: 1049px) {
+		.content {
+			width: auto;
+		}
+	}
 </style>

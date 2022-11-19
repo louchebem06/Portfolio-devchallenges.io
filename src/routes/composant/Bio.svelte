@@ -111,4 +111,28 @@
 		top: 30px;
 		left: calc(100% - 220px);
 	}
+
+	@media only screen and (max-width: 820px) {
+		.content {
+			flex-direction: column;
+			gap: 20px;
+		}
+
+		img {
+			margin: auto;
+			width: 80%;
+			height: auto;
+		}
+
+		.info {
+			width: auto;
+		}
+	}
+
+	@media only screen and (max-width: 518px) {
+		.line {
+			margin-top: 20px;
+			position: initial;
+		}
+	}
 </style>
