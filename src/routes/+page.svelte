@@ -151,6 +151,7 @@
 	.content {
 		margin: auto;
 		display: block;
+		/* TRAVAILLER SUR 1050px */
 		max-width: 1200px;
 	}
 
