@@ -9,7 +9,11 @@
 	<h1>Project{#if number > 1 } s {/if} ({number})</h1>
 	<div class="btn">
 		{#each tags as tag}
-			<SmallButton name={tag} />
+			{#if tag == "responsive"}
+				<SmallButton name={tag} cliqued={true}/>
+			{:else}
+				<SmallButton name={tag} cliqued={false}/>
+			{/if}
 		{/each}
 	</div>
 </div>

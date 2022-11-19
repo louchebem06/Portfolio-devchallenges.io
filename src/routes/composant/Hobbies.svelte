@@ -25,7 +25,7 @@
 	.content {
 		background: #FFFFFF;
 		border-radius: 12px;
-		width: 415.02px;
+		width: 100%;
 		padding: 23.47px;
 	}
 
@@ -38,7 +38,12 @@
 	}
 
 	.hobbies {
-		margin-bottom: 50px;
+		margin-bottom: 38px;
+		margin-top: -11px;
+	}
+
+	.hobbies:nth-last-child(1) {
+		margin-bottom: 0;
 	}
 
 	h1 {
@@ -48,7 +53,7 @@
 		font-size: 24px;
 		line-height: 29px;
 		color: #4F4F4F;
-		margin-bottom: 50px;
+		transform: translateY(-20px);
 	}
 
 	h2 {
@@ -58,6 +63,7 @@
 		font-size: 18px;
 		line-height: 22px;
 		color: #333333;
+		margin-bottom: -5px;
 	}
 
 	p {

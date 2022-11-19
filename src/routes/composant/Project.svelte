@@ -27,11 +27,23 @@
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+	* {
+		--size: 285px;
+	}
+
 	.content {
 		background: white;
 		border-radius: 12px;
-		width: 350px;
+		width: var(--size);
 		padding: 20px;
+	}
+
+	img {
+		display: block;
+		border-radius: 12px;
+		width: var(--size);
+		height: var(--size);
+		object-fit: cover;
 	}
 
 	.button {
@@ -74,13 +86,5 @@
 		font-size: 24px;
 		line-height: 29px;
 		color: #333333;
-	}
-
-	img {
-		display: block;
-		border-radius: 12px;
-		width: 350px;
-		height: 350px;
-		object-fit: cover;
 	}
 </style>

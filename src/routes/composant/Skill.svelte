@@ -16,21 +16,34 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		gap: 30px;
 	}
 
 	progress {
-		width: 70%;
+		-webkit-appearance: none;
+   		appearance: none;
+		width: 60%;
+		height: 10px;
+	}
+
+	progress::-webkit-progress-bar {
+		border-radius: 12px;
+		background-color: #C4C4C4;
+	}
+
+	progress::-webkit-progress-value {
+		border-radius: 12px;
+		background-color: #2F80ED;
 	}
 
 	p {
-		width: 30%;
+		width: auto;
 		color: #4F4F4F;
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 20px;
+		white-space: nowrap;
 	}
 
 	* {

@@ -1,10 +1,17 @@
 <script lang="ts">
 	 export let name: string;
+	 export let cliqued: boolean;
 </script>
 
+{#if cliqued}
+<a class="cliqued"  href="#">
+	{name}
+</a>
+{:else}
 <a href="#">
 	{name}
 </a>
+{/if}
 
 <style>
 	a {
@@ -24,6 +31,12 @@
 
 	a:hover {
 		color: #2F80ED;
+		border: 1px solid #2F80ED;
+	}
+
+	.cliqued {
+		background-color: #2F80ED;
+		color: white;
 		border: 1px solid #2F80ED;
 	}
 </style>

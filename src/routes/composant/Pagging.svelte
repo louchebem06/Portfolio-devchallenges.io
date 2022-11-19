@@ -3,13 +3,13 @@
 
 </script>
 <div>
-	<PageButton letter="<" lien="#"/>
-	<PageButton letter="1" lien="#"/>
-	<PageButton letter="2" lien="#"/>
-	<PageButton letter="3" lien="#"/>
+	<PageButton letter="<" lien="#" cliqued={false}/>
+	<PageButton letter="1" lien="#" cliqued={false}/>
+	<PageButton letter="2" lien="#" cliqued={true}/>
+	<PageButton letter="3" lien="#" cliqued={false}/>
 	<p>...</p>
-	<PageButton letter="10" lien="#"/>
-	<PageButton letter=">" lien="#"/>
+	<PageButton letter="10" lien="#" cliqued={false}/>
+	<PageButton letter=">" lien="#" cliqued={false}/>
 </div>
 
 <style>

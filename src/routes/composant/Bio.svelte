@@ -1,12 +1,13 @@
 <script lang="ts">
+	import call from '../lib/assets/call.svg';
+	import mailto from '../lib/assets/mailto.svg';
+	
 	export let img: string;
 	export let fullname: string;
 	export let title: string;
 	export let description: Array<string>;
 	export let mail: string;
 	export let phone: string;
-	import call from '../lib/assets/call.svg';
-	import mailto from '../lib/assets/mailto.svg';
 </script>
 
 <div class="content">

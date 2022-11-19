@@ -31,7 +31,7 @@
 		background: #FFFFFF;
 		border-radius: 12px;
 		padding: 23.47px;
-		width: 660px;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		gap: 30px;

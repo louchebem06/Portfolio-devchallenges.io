@@ -27,7 +27,7 @@
 	.content {
 		background: #FFFFFF;
 		border-radius: 12px;
-		width: 660px;
+		width: 100%;
 		padding: 23.47px;
 		overflow: hidden;
 	}
@@ -69,11 +69,12 @@
 	}
 
 	img {
+		--size: 321px;
 		display: block;
-		border-radius: 12px;
-		width: 480px;
-		height: 480px;	
-		transform: translateX(50px);
+		border-radius: 12px 0 0 12px;
+		width: var(--size);
+		height: var(--size);	
+		transform: translateX(25px);
 		object-fit: cover;
 	}
 

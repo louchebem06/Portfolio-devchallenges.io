@@ -8,11 +8,11 @@
 	<h1>{title}</h1>
 	<div class="skill">
 		<Skill name="React" value={60}/>
-		<Skill name="Javascript" value={85}/>
-		<Skill name="CSS" value={95}/>
+		<Skill name="Javascript" value={80}/>
+		<Skill name="CSS" value={90}/>
 		<Skill name="Vue" value={60}/>
-		<Skill name="Redux" value={85}/>
-		<Skill name="React Native" value={95}/>
+		<Skill name="Redux" value={80}/>
+		<Skill name="React Native" value={90}/>
 	</div>
 </div>
 
@@ -22,7 +22,7 @@
 	.content {
 		background: #FFFFFF;
 		border-radius: 12px;
-		width: 415.02px;
+		width: 100%;
 		padding: 23.47px;
 	}
 

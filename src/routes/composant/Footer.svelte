@@ -1,10 +1,10 @@
 <footer>
-	<p>created by <a href="#">louchebem06</a> - devChallenges.io</p>
+	<p>created by <a href="https://github.com/louchebem06" target="_blank">louchebem06</a> - devChallenges.io</p>
 </footer>
 
 <style>
 	footer {
-		margin-top: 150px;
+		margin-top: 100px;
 		text-align: center;
 		font-family: 'Montserrat';
 		font-style: normal;

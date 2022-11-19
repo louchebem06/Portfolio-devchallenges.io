@@ -9,6 +9,17 @@
 	import Project from './composant/Project.svelte'
 	import Projects from './composant/Projects.svelte'
 
+	import picture from './lib/assets/picture.jpg';
+	import css from './lib/assets/css.png';
+	import peugeot from './lib/assets/peugeot.jpg';
+	import tesla from './lib/assets/tesla.jpg';
+	import gaming from './lib/assets/gaming.webp';
+	import cooking from './lib/assets/cooking.jpg';
+	import biking from './lib/assets/biking.jpeg';
+	import checkout from './lib/assets/checkout.png';
+	import recipe from './lib/assets/recipe.png';
+	import gallery from './lib/assets/gallery.png';
+
 	let description = "In this project, I work with HTML and CSS to create a \
 						responsive page. This page is similiar with a page. \
 						The design is from devchallenge.io";
@@ -18,47 +29,47 @@
 		{
 			tags, description,
 			title: "Recipe Blog",
-			image: "https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
-			lienDemo: "#",
-			lienCode: "#"
+			image: recipe,
+			lienDemo: "https://recipe.bryanledda.fr/",
+			lienCode: "https://github.com/louchebem06/Recipe-page-devchallenge.io"
 		},
 		{
 			tags, description,
 			title: "My Gallery",
-			image: "https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
-			lienDemo: "#",
-			lienCode: "#"
+			image: gallery,
+			lienDemo: "https://gallery.bryanledda.fr/",
+			lienCode: "https://github.com/louchebem06/My-Gallery-devchallenge.io"
 		},
 		{
 			tags, description,
 			title: "Checkout",
-			image: "https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
-			lienDemo: "#",
-			lienCode: "#"
+			image: checkout,
+			lienDemo: "https://checkout.bryanledda.fr/",
+			lienCode: "https://github.com/louchebem06/Checkout-Page-devchallenge.io"
 		}
 	]
 
 	let hobbies = [
 		{
-			image: "https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+			image: gaming,
 			title: "Gaming",
 			description: "Quisque feugiat malesuada molestie."
 		},
 		{
-			image: "https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+			image: cooking,
 			title: "Cooking",
 			description: "Quisque feugiat malesuada molestie."
 		},
 		{
-			image: "https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+			image: biking,
 			title: "Biking",
 			description: "Quisque feugiat malesuada molestie."
 		}
 	]
 
 	let bio = {
-		img: "https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
-		fullname: "Billy Pearson",
+		img: picture,
+		fullname: "Dwayne Johnson",
 		title: "Front-end developer",
 		description: [
 						"Self-motivated developer, who is willing to learn and create outstanding UI applications.",
@@ -70,7 +81,7 @@
 
 	let blog = {
 		title:"How to organize your CSS",
-		image:"https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+		image: css,
 		description : [
 			"In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.",
 			"Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
@@ -81,13 +92,13 @@
 
 	let experiences = [
 		{
-			image:"https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+			image: peugeot,
 			date:"Feb 2017 - Current",
 			title:"Front-end developer",
 			description:"Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
 		},
 		{
-			image:"https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-1520x800.png",
+			image: tesla,
 			date:"Aug 2016 - Feb 2018",
 			title:"Full-stack developer",
 			description:"Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
@@ -151,8 +162,8 @@
 	.content {
 		margin: auto;
 		display: block;
-		/* TRAVAILLER SUR 1050px */
-		max-width: 1200px;
+		max-width: 1050px;
+		padding-top: 30px;
 	}
 
 	* {
@@ -172,5 +183,11 @@
 	.col {
 		display: flex;
 		justify-content: space-between;
+		width: 100%;
+	}
+
+	.second {
+		max-width: 570px;
+		transform: translateX(-45px);
 	}
 </style>
