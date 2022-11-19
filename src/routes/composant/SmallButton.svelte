@@ -8,7 +8,7 @@
 	{name}
 </a>
 {:else}
-<a href="{location.hostname}">
+<a href="#">
 	{name}
 </a>
 {/if}
