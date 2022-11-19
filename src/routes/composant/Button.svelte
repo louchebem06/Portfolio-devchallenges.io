@@ -8,7 +8,8 @@
 <a href="{lien}" target="_blank" style="
 						color:{secondColor};
 						background-color:{firstColor};
-					">
+					"
+					rel="noreferrer">
 	{name}
 </a>
 

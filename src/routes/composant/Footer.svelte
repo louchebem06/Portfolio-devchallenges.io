@@ -1,5 +1,5 @@
 <footer>
-	<p>created by <a href="https://github.com/louchebem06" target="_blank">louchebem06</a> - devChallenges.io</p>
+	<p>created by <a href="https://github.com/louchebem06" target="_blank" rel="noreferrer">louchebem06</a> - devChallenges.io</p>
 </footer>
 
 <style>

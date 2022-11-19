@@ -4,11 +4,11 @@
 </script>
 
 {#if cliqued}
-<a class="cliqued"  href="#">
+<a class="cliqued"  href="{location.hostname}">
 	{name}
 </a>
 {:else}
-<a href="#">
+<a href="{location.hostname}">
 	{name}
 </a>
 {/if}
