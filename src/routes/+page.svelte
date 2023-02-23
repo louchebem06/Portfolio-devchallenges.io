@@ -30,22 +30,22 @@
 			tags, description,
 			title: "Recipe Blog",
 			image: recipe,
-			lienDemo: "https://recipe.bryanledda.fr/",
-			lienCode: "https://github.com/louchebem06/Recipe-page-devchallenge.io"
+			lienDemo: "https://louchebem06.github.io/Recipe-page-devchallenges.io/recipe",
+			lienCode: "https://github.com/louchebem06/Recipe-page-devchallenges.io"
 		},
 		{
 			tags, description,
 			title: "My Gallery",
 			image: gallery,
-			lienDemo: "https://gallery.bryanledda.fr/",
-			lienCode: "https://github.com/louchebem06/My-Gallery-devchallenge.io"
+			lienDemo: "http://louchebem06.github.io/My-Gallery-devchallenges.io/my-gallery",
+			lienCode: "https://github.com/louchebem06/My-Gallery-devchallenges.io"
 		},
 		{
 			tags, description,
 			title: "Checkout",
 			image: checkout,
-			lienDemo: "https://checkout.bryanledda.fr/",
-			lienCode: "https://github.com/louchebem06/Checkout-Page-devchallenge.io"
+			lienDemo: "https://louchebem06.github.io/Checkout-Page-devchallenges.io/checkout",
+			lienCode: "https://github.com/louchebem06/Checkout-Page-devchallenges.io"
 		}
 	]
 
