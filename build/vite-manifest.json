@@ -1,0 +1,143 @@
+{
+  "src/routes/lib/assets/css.png": {
+    "file": "_app/immutable/assets/css-cd3461d7.png",
+    "src": "src/routes/lib/assets/css.png"
+  },
+  "src/routes/lib/assets/picture.jpg": {
+    "file": "_app/immutable/assets/picture-8574e34f.jpg",
+    "src": "src/routes/lib/assets/picture.jpg"
+  },
+  "src/routes/lib/assets/peugeot.jpg": {
+    "file": "_app/immutable/assets/peugeot-783c084a.jpg",
+    "src": "src/routes/lib/assets/peugeot.jpg"
+  },
+  "src/routes/lib/assets/tesla.jpg": {
+    "file": "_app/immutable/assets/tesla-c42561fc.jpg",
+    "src": "src/routes/lib/assets/tesla.jpg"
+  },
+  "src/routes/lib/assets/gaming.webp": {
+    "file": "_app/immutable/assets/gaming-13a9c2b0.webp",
+    "src": "src/routes/lib/assets/gaming.webp"
+  },
+  "src/routes/lib/assets/cooking.jpg": {
+    "file": "_app/immutable/assets/cooking-e64b40c1.jpg",
+    "src": "src/routes/lib/assets/cooking.jpg"
+  },
+  "src/routes/lib/assets/biking.jpeg": {
+    "file": "_app/immutable/assets/biking-7ea2878c.jpeg",
+    "src": "src/routes/lib/assets/biking.jpeg"
+  },
+  "src/routes/lib/assets/call.svg": {
+    "file": "_app/immutable/assets/call-e8598a3f.svg",
+    "src": "src/routes/lib/assets/call.svg"
+  },
+  "src/routes/lib/assets/mailto.svg": {
+    "file": "_app/immutable/assets/mailto-1f716ac6.svg",
+    "src": "src/routes/lib/assets/mailto.svg"
+  },
+  "src/routes/lib/assets/checkout.png": {
+    "file": "_app/immutable/assets/checkout-7ebea2b9.png",
+    "src": "src/routes/lib/assets/checkout.png"
+  },
+  "src/routes/lib/assets/gallery.png": {
+    "file": "_app/immutable/assets/gallery-55ad5dc6.png",
+    "src": "src/routes/lib/assets/gallery.png"
+  },
+  "src/routes/lib/assets/recipe.png": {
+    "file": "_app/immutable/assets/recipe-4eba57e8.png",
+    "src": "src/routes/lib/assets/recipe.png"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-ddd7529e.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-e93d892c.js",
+      "_singletons-4f8fae43.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "_app/immutable/components/layout.svelte-207aea4c.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e93d892c.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-3717a0b9.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e93d892c.js",
+      "_singletons-4f8fae43.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-8a69c331.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e93d892c.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-ecd1726d.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/call-e8598a3f.svg",
+      "_app/immutable/assets/mailto-1f716ac6.svg",
+      "_app/immutable/assets/picture-8574e34f.jpg",
+      "_app/immutable/assets/css-cd3461d7.png",
+      "_app/immutable/assets/peugeot-783c084a.jpg",
+      "_app/immutable/assets/tesla-c42561fc.jpg",
+      "_app/immutable/assets/gaming-13a9c2b0.webp",
+      "_app/immutable/assets/cooking-e64b40c1.jpg",
+      "_app/immutable/assets/biking-7ea2878c.jpeg",
+      "_app/immutable/assets/checkout-7ebea2b9.png",
+      "_app/immutable/assets/recipe-4eba57e8.png",
+      "_app/immutable/assets/gallery-55ad5dc6.png"
+    ]
+  },
+  "_singletons-4f8fae43.js": {
+    "file": "_app/immutable/chunks/singletons-4f8fae43.js",
+    "imports": [
+      "_index-e93d892c.js"
+    ]
+  },
+  "_index-e93d892c.js": {
+    "file": "_app/immutable/chunks/index-e93d892c.js"
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-ec7c68f5.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-2fbe2ca0.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-fcb11922.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-ecd1726d.css",
+    "src": "src/routes/+page.css"
+  }
+}
