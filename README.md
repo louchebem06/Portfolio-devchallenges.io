@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://portfolio.bryanledda.fr">
+    <a href="https://portfolio-devchallenges-io.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/louchebem06/Portfolio-devchallenge.io">
+    <a href="https://github.com/louchebem06/Portfolio-devchallenges.io">
       Solution
     </a>
     <span> | </span>
